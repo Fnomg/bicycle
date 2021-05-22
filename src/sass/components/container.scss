@@ -1,0 +1,12 @@
+.container {
+  padding: 0 calc(50% - 90%/2);
+
+  @media (min-width: 1024px) {
+    padding: 0 calc(50% - 1000px/2);
+  }
+
+  @media (min-width: 1400px) {
+    padding: 0 calc(50% - 1260px/2);
+  }
+
+}
