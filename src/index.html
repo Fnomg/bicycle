@@ -6,14 +6,134 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./css/style.css">
-  <title>Document</title>
+  <title>Велосипеды Moon</title>
 </head>
 <script src="./js/script.js" defer></script>
 <body>
-<header>шапка</header>
-<main>
-тело
-</main>
-<footer>футер</footer>
+  <header>
+    <div class="header">
+      <div class="header__wrapper container">
+        <div class="header__wrap">
+          <img class="header__logo" src="./img/logo.svg" alt="Велосипеды Moon">
+          <div class="header__button closed">
+            <img class="open-menu" src="./img/open-menu.svg" alt="Открыть меню" width="22.5" height="12.5" style="display: block">
+            <img class="close-menu" src="./img/close-menu.svg" alt="Закрыть меню" width="22.5" height="12.5" style="display: none">
+          </div>
+          <nav class="header__main-nav nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <p class="nav__text">О нас</p>
+                <img src="./img/choose-el-menu.svg" alt="Переход на элемент меню" class="nav__pic">
+              </li>
+              <li class="nav__item">
+                <p class="nav__text">Виды велосипедов</p>
+                <img src="./img/choose-el-menu.svg" alt="Переход на элемент меню" class="nav__pic">
+              </li>
+              <li class="nav__item">
+                <p class="nav__text">Видео про велосипеды</p>
+                <img src="./img/choose-el-menu.svg" alt="Переход на элемент меню" class="nav__pic">
+              </li>
+              <li class="nav__item">
+                <p class="nav__text">Контакты</p>
+                <img src="./img/choose-el-menu.svg" alt="Переход на элемент меню" class="nav__pic">
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__wrap-cont">
+          <div class="header__text">
+            <h1 class="header__title">Мы продаем велосипеды</h1>
+            <h2 class="header__subtitle">Наш магазин отбирает только самые лучшие велосипеды для продажи</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="form">
+      <div class="form__wrapper container">
+        <h3 class="form__title">Заполните поля ниже и мы подберем велосипед Вашей мечты</h3>
+        <form class="form__inputs">
+          <input class="form__input" type="text" placeholder="Введите Ваше имя">
+          <input class="form__input" type="tel" placeholder="Введите Ваш телефон">
+          <input class="form__input" type="submit" value="Подобрать велосипед мечты">
+        </form>
+      </div>
+    </section>
+    <section class="advantages">
+      <div class="advantages__wrapper container">
+        <h2 class="advantages__title">Несколько фактов о нас</h2>
+        <div class="advantages__items">
+          <div class="advantages__item">
+            <div class="advantages__num">01</div>
+            <h3 class="advantages__text">Самый широкий выбор велосипедов!</h3>
+          </div>
+          <div class="advantages__item">
+            <div class="advantages__num">02</div>
+            <h3 class="advantages__text">Доставка велосипедов по всей России!</h3>
+          </div>
+          <div class="advantages__item">
+            <div class="advantages__num">03</div>
+            <h3 class="advantages__text">Большой выбор крутых аксессуаров!</h3>
+          </div>
+          <div class="advantages__item">
+            <div class="advantages__num">04</div>
+            <h3 class="advantages__text">Профессиональные консультации!</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="types">
+      <div class="types__wrapper container">
+        <h2 class="types__title">Виды велосипедов</h2>
+        <div class="types__items">
+          <div class="types__item">
+            <img src="./img/bike-img-1.png" alt="Дорожный велосипед">
+            <h3 class="types__subtitle">Дорожный велосипед</h3>
+          </div>
+          <div class="types__item">
+            <img src="./img/bike-img-2.png" alt="Горный велосипед">
+            <h3 class="types__subtitle">Горный велосипед</h3>
+          </div>
+          <div class="types__item">
+            <img src="./img/bike-img-3.png" alt="Детский велосипед">
+            <h3 class="types__subtitle">Детский велосипед</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="video">
+      <div class="video__wrapper container">
+        <h2 class="video__title">Видео про велосипеды</h2>
+        <p class="video__subtitle">В этом видео мы подробно расскажем про особенности выбора велосипеда для себя.</p>
+        <div class="video__content">
+          <img src="./img/video.png" alt="Видео про велосипеды">
+        </div>
+      </div>
+    </section>
+    <section class="locate">
+      <div class="locate__wrapper container">
+        <h2 class="locate__title">Как нас найти?</h2>
+        <p class="locate__text">Мы находимся по адресу: Санкт-Петербург, ул. Большая Конюшенная, д. 19</p>
+<!--        <img src="./img/map.png" alt="Карта">-->
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="footer__wrapper container">
+        <ul class="footer__contacts contacts">
+          <li class="contacts__item">
+            <img src="./img/mail.svg" alt="Почта">
+            <p><a href="mailto:puteshestviemechta@gmail.ru">puteshestviemechta@gmail.ru</a></p>
+          </li>
+          <li class="contacts__item">
+            <img src="./img/mail.svg" alt="Телефон">
+            <p><a href="tel:+749978468446">+7 (499) -784-6 84-46</a></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
