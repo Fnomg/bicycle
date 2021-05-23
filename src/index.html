@@ -5,6 +5,8 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <title>Велосипеды Moon</title>
 </head>
@@ -56,7 +58,7 @@
         <form class="form__inputs">
           <input class="form__input" type="text" placeholder="Введите Ваше имя">
           <input class="form__input" type="tel" placeholder="Введите Ваш телефон">
-          <input class="form__input" type="submit" value="Подобрать велосипед мечты">
+          <input class="form__input form__input--button" type="submit" value="Подобрать велосипед мечты">
         </form>
       </div>
     </section>
@@ -88,15 +90,15 @@
         <h2 class="types__title">Виды велосипедов</h2>
         <div class="types__items">
           <div class="types__item">
-            <img src="./img/bike-img-1.png" alt="Дорожный велосипед">
+            <img class="types__img" src="./img/bike-img-1.png" alt="Дорожный велосипед">
             <h3 class="types__subtitle">Дорожный велосипед</h3>
           </div>
           <div class="types__item">
-            <img src="./img/bike-img-2.png" alt="Горный велосипед">
+            <img class="types__img" src="./img/bike-img-2.png" alt="Горный велосипед">
             <h3 class="types__subtitle">Горный велосипед</h3>
           </div>
           <div class="types__item">
-            <img src="./img/bike-img-3.png" alt="Детский велосипед">
+            <img class="types__img" src="./img/bike-img-3.png" alt="Детский велосипед">
             <h3 class="types__subtitle">Детский велосипед</h3>
           </div>
         </div>
@@ -107,7 +109,14 @@
         <h2 class="video__title">Видео про велосипеды</h2>
         <p class="video__subtitle">В этом видео мы подробно расскажем про особенности выбора велосипеда для себя.</p>
         <div class="video__content">
-          <img src="./img/video.png" alt="Видео про велосипеды">
+          <video width="288" height="161" controls="controls" poster="./img/video.png">
+            <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
+            <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'>
+            Тег video не поддерживается вашим браузером.
+            <a href="video/duel.mp4">Скачайте видео</a>.
+          </video>
+<!--          <img src="./img/video.png" alt="Видео про велосипеды">-->
         </div>
       </div>
     </section>
@@ -115,8 +124,10 @@
       <div class="locate__wrapper container">
         <h2 class="locate__title">Как нас найти?</h2>
         <p class="locate__text">Мы находимся по адресу: Санкт-Петербург, ул. Большая Конюшенная, д. 19</p>
-<!--        <img src="./img/map.png" alt="Карта">-->
       </div>
+    </section>
+    <section class="map">
+      <img src="./img/map.png" alt="Карта" width="320">
     </section>
   </main>
   <footer>
@@ -125,11 +136,11 @@
         <ul class="footer__contacts contacts">
           <li class="contacts__item">
             <img src="./img/mail.svg" alt="Почта">
-            <p><a href="mailto:puteshestviemechta@gmail.ru">puteshestviemechta@gmail.ru</a></p>
+            <p><a class="contacts__link" href="mailto:puteshestviemechta@gmail.ru">puteshestviemechta@gmail.ru</a></p>
           </li>
           <li class="contacts__item">
             <img src="./img/mail.svg" alt="Телефон">
-            <p><a href="tel:+749978468446">+7 (499) -784-6 84-46</a></p>
+            <p><a class="contacts__link" href="tel:+749978468446">+7 (499) -784-6 84-46</a></p>
           </li>
         </ul>
       </div>

@@ -1,0 +1,41 @@
+.video {
+  background: #131314;
+  position: relative;
+}
+
+.video__wrapper {
+  padding-top: 80px;
+  padding-bottom: 165px;
+}
+
+.video__title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.005em;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.video__subtitle {
+  margin-top: 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.005em;
+  color: #FFFFFF;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.video__content {
+  position: absolute;
+  bottom: -48px;
+  left: 50%;
+  transform: translateX(-50%);
+}

@@ -1,0 +1,52 @@
+.advantages__wrapper {
+  padding-top: 70px;
+}
+
+.advantages__title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 41px;
+  text-align: center;
+  letter-spacing: -0.005em;
+  color: #1F1F1F;
+}
+
+.advantages__items {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.advantages__item {
+  width: 263px;
+}
+
+.advantages__item:not(:last-child) {
+  margin-bottom: 48px;
+}
+
+.advantages__num {
+  font-family: Overpass;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -1.27273px;
+  color: #0AD9C6;
+}
+
+.advantages__text {
+  font-family: Overpass;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #000000;
+  margin-top: 30px;
+}

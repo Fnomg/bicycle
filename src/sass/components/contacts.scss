@@ -1,0 +1,28 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts__item {
+  display: flex;
+}
+
+.contacts__link {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.contacts__item:not(:last-child) {
+  margin-bottom: 22px;
+}
+
+.contacts__item img {
+  margin-right: 15px;
+}
